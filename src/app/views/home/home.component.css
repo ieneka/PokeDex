@@ -7,3 +7,13 @@ body{
     width: 35rem;
     height: 15rem;
 }
+
+.poke{
+    width: 9rem;
+    height: 9rem;
+}
+.pokedex{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 3rem;
+}

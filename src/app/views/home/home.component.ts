@@ -15,8 +15,8 @@ import {trigger, state, style, transition, animate} from '@angular/animations';
         opacity: 1,
         transform: 'scale(1)'
       })),
-      transition('inactive => active', animate('6s 13000ms')),
-      transition('active => inactive', animate('6s 13000ms'))
+      transition('inactive => active', animate('0s 2000ms')),
+      transition('active => inactive', animate('0s 2000ms'))
     ]),
     trigger('nav-animation', [
       state('inactive', style({
@@ -37,6 +37,9 @@ export class HomeComponent implements OnInit {
   
 
   ngOnInit(): void {
+   
+  }
+  togleButton(): void{
     this.state = this.state === 'inactive' ? 'active' : 'inactive';
   }
 
