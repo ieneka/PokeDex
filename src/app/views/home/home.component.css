@@ -1,0 +1,9 @@
+body{
+    background-image: url(../../../assets/images/pokemon-pikachu-wide-wallpaper-64925-67130-hd-wallpapers.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.logo img{
+    width: 35rem;
+    height: 15rem;
+}
